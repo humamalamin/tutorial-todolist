@@ -20,7 +20,7 @@ type Activity struct {
 }
 
 func initDB() (*sql.DB, error) {
-	dns := "user=postgres.yzcmlmlokppmtkpcrtrm password=Kidodier13% host=aws-0-ap-southeast-1.pooler.supabase.com port=6543 dbname=postgres"
+	dns := "user=postgres.wltrpabpnfpbuxrawmqd password=Kidodier13% host=aws-0-ap-southeast-1.pooler.supabase.com port=6543 dbname=postgres"
 	db, err := sql.Open("postgres", dns)
 	if err != nil {
 		return nil, err
